@@ -2,28 +2,14 @@
   border-bottom: 1px solid #ECECEC;
 }
 
-.navigation {
+.page-header__container {
   display: flex;
   align-items: center;
 }
 
-.main-nav {
+.container__main-nav {
   display: flex;
   align-items: center;
-}
-
-.main-nav__logo {
-  color: var(--secondary-text-color);
-
-  font-family: var(--secondary-font-family);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
-}
-
-.main-nav__logo-web {
-  color: var(--accent-color);
 }
 
 .main-nav__list {
@@ -71,7 +57,7 @@
   border-radius: 2px;
 }
 
-.auth-nav {
+.container__auth-nav {
   display: flex;
   margin-left: auto;
 }

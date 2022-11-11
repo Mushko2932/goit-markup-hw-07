@@ -1,0 +1,50 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.button-list__item:not(:first-child) {
+    margin-left: 8px;
+}
+
+.button-list {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-left: 0;
+    justify-content: center;
+}
+
+button {
+    font-family: inherit;
+}
+
+.button-list__btn {
+    display: inline-block;
+    padding: 6px 22px;
+    border: 0;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    background-color: #F5F4FA;
+
+    border-radius: 4px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    box-shadow: 0px 3px 1px
+    rgba(0, 0, 0, 0.1), 0px 1px 2px
+    rgba(0, 0, 0, 0.08), 0px 2px 2px
+    rgba(0, 0, 0, 0.12);
+}
+}
+
